@@ -1,0 +1,17 @@
+# Telegram Bot Requirements
+python-telegram-bot==20.7
+python-telegram-bot[ext]>=20.0
+
+# Core Python packages (usually included with Python)
+# re - Regular expressions (built-in)
+# logging - Logging framework (built-in)
+# os - Operating system interface (built-in)
+
+# Optional but recommended packages
+python-dotenv>=1.0.0  # For environment variable management
+asyncio>=3.4.3  # For async operations (built-in with Python 3.7+)
+
+# Development dependencies (optional)
+# pytest>=7.0.0  # For testing
+# black>=22.0.0  # For code formatting
+# flake8>=5.0.0  # For linting
